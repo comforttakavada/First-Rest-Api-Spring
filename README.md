@@ -107,6 +107,8 @@ Accepts a JSON body and saves a new product to the database.
   "name": "First product"
 }
 ```
+<img width="779" height="435" alt="image" src="https://github.com/user-attachments/assets/279ab6f0-9b40-4c4d-abf2-fc8bcec8ad8d" />
+
 
 **What happens in the code:**
 1. The request JSON is mapped to a `ProductRequest` object via `@RequestBody`
@@ -305,6 +307,9 @@ public class Product {
 Hibernate automatically creates the `products` table on startup with columns `ID` (BIGINT, primary key) and `NAME` (VARCHAR).
 
 ---
+<img width="784" height="405" alt="image" src="https://github.com/user-attachments/assets/daca9aaf-60ce-433b-9a78-8839f055c592" />
+
+
 
 ## Key Spring Annotations Used
 
