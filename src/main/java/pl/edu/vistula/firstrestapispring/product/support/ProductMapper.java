@@ -1,6 +1,5 @@
 package pl.edu.vistula.firstrestapispring.product.support;
 
-
 import org.springframework.stereotype.Component;
 import pl.edu.vistula.firstrestapispring.product.api.request.ProductRequest;
 import pl.edu.vistula.firstrestapispring.product.api.request.UpdateProductRequest;
